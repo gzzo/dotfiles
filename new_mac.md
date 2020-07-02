@@ -19,6 +19,6 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git config --global --edit
 git config --global pager.branch false
 
-brew install yarn
+brew install yarn poetry github/gh/gh jq kubectl kubectx go
 brew tap homebrew/cask-fonts && brew cask install font-source-code-pro
 ```
